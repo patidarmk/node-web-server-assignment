@@ -1,0 +1,13 @@
+{
+  "name": "node-web-server-assignment",
+  "version": "1.0.0",
+  "description": "A basic web server built with Node.js http module to handle routing and serve HTML pages.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "author": "Ashish Patidar",
+  "license": "MIT",
+  "type": "commonjs"
+}
