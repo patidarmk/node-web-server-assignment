@@ -4,6 +4,7 @@ const path = require('path');
 module.exports = (req, res) => {
     let url = req.url === '/' || req.url === '/home' ? '/index.html' : req.url;
 
+    // Add .html if no extension
     if (!url.includes('.')) url += '.html';
 
     const filePath = path.join(process.cwd(), 'public', url);
